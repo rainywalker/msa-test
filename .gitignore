@@ -7,16 +7,3 @@
 .idea/msa.iml
 .idea/watcherTasks.xml
 .idea/workspace.xml
-be/
-fe/.babelrc
-fe/.editorconfig
-fe/.gitignore
-fe/.postcssrc.js
-fe/README.md
-fe/build/
-fe/config/
-fe/index.html
-fe/package-lock.json
-fe/package.json
-fe/src/
-fe/static/
