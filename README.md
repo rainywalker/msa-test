@@ -8,6 +8,7 @@
 
 ````
 cd be
+npm install supervisor -g
 npm install 
 npm start
 ````
