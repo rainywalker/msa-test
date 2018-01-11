@@ -30,7 +30,7 @@ localhost:8080
 npm run build
 ````
 
-##description
+## description
 
 **back-end Part**
 1. 라우터에서 영화목록을 가져오는 api(moives.json) - be/route/movies.js
