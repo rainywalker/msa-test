@@ -1,0 +1,22 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+.idea/inspectionProfiles/
+.idea/libraries/
+.idea/misc.xml
+.idea/modules.xml
+.idea/msa.iml
+.idea/watcherTasks.xml
+.idea/workspace.xml
+be/
+fe/.babelrc
+fe/.editorconfig
+fe/.gitignore
+fe/.postcssrc.js
+fe/README.md
+fe/build/
+fe/config/
+fe/index.html
+fe/package-lock.json
+fe/package.json
+fe/src/
+fe/static/
