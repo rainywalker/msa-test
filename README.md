@@ -2,8 +2,9 @@
 
 
 
-##be(back-end)
-####setting
+## be(back-end)
+
+#### setting
 
 ````
 cd be
@@ -13,8 +14,9 @@ npm start
 localhost:9000
 
 
-##fe(front-end)
-####setting
+## fe(front-end)
+
+#### setting
 ````
 cd fe
 npm install 
@@ -23,7 +25,7 @@ npm run dev
 ````
 localhost:8080
 
-####build
+#### build
 ````
 npm run build
 ````
