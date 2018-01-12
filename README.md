@@ -39,4 +39,4 @@ npm run build
 2. app.js에 movies.js를 등록
 
 **front-end Part**
-1. localhost:8080/api 요청이 들어오면 localhost:300/api를 프록시로 사용 - fe/config/index.js
+1. localhost:8080/api 요청이 들어오면 localhost:3000/api를 프록시로 사용 - fe/config/index.js
