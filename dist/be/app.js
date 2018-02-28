@@ -1,3 +1,5 @@
+'use strict';
+
 var express = require('express');
 var path = require('path');
 var mongoose = require('mongoose');
@@ -7,10 +9,10 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
-const movies = require('./routes/movies');
+var movies = require('./routes/movies');
 var app = express();
 
-mongoose.connect('mongodb://jaelomin:ex7804!!@ds155130.mlab.com:55130/jaelomin-db')
+mongoose.connect('mongodb://jaelomin:ex7804!!@ds155130.mlab.com:55130/jaelomin-db');
 
 // view engine setup
 app.use(require('connect-history-api-fallback')());
@@ -25,19 +27,18 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-
 app.use('/', index);
 app.use('/api/movies', movies);
 
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
   var err = new Error('Not Found');
   err.status = 404;
   next(err);
 });
 
 // error handler
-app.use(function(err, req, res, next) {
+app.use(function (err, req, res, next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
@@ -48,3 +49,4 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+//# sourceMappingURL=app.js.map
